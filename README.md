@@ -1,11 +1,37 @@
-# Sample Snack app
+# Mobile Flashcards
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+ React-native mobile app that lets you create cards for revising and test yourself, and helps you organize these cards inside categories (Decks).
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+It uses React Native, Expo, Redux, & React Navigation & Native Base.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+## Installation
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+1-Clone the repository
+</br>
+2-Use npm or yarn to install the  dependencies.
+
+```bash
+$ git clone https://github.com/seifElislam/mobile-flashcards
+$ cd mobile-flashcards
+$ npm install
+```
+
+## Usage
+
+The project can be run with npm or yarn
+
+- `expo start` or `yarn start`
+
+This will open Expo Developer Tools in the browser.  You can then do one of the following.
+
+- Use your device to test:
+
+    Scan the QR Code using the Expo Client app ([Expo Client for Android & iOS](https://expo.io/tools#client))  from an Android or iOS device.
+
+
+## Testing
+
+This project has been tested on the following platforms:
+
+- Android
