@@ -4,6 +4,7 @@ import {
   View,
   TouchableOpacity,
   Platform,
+  Text
 } from "react-native";
 import appColors from "../colors";
 import Button from "./Button";
@@ -13,8 +14,7 @@ import {
   Content,
   Card,
   CardItem,
-  Body,
-  Text,
+  Body
 } from "native-base";
 export default function CardQuestion({ onShowAnswer, quizText, progress }) {
   return (

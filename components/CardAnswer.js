@@ -4,6 +4,7 @@ import {
   View,
   TouchableOpacity,
   Platform,
+  Text
 } from "react-native";
 import appColors from "../colors";
 import Button from "./Button";
@@ -14,7 +15,6 @@ import {
   Card,
   CardItem,
   Body,
-  Text,
 } from "native-base";
 export default function CardAnswer({
   onCorrectPressed,

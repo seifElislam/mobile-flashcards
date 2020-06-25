@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View, TouchableWithoutFeedback } from "react-native";
+import { StyleSheet, View, TouchableWithoutFeedback, Text } from "react-native";
 import {
   Container,
   Header,
@@ -7,7 +7,6 @@ import {
   Card,
   CardItem,
   Body,
-  Text,
 } from "native-base";
 import appColors from "../colors";
 
